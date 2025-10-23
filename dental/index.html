@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 検索結果出さないようにする -->
+<meta name="robots" content="noindex,nofollow">
+<title>しんみ歯科</title>
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<!--Font Awesome５-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!--css-->
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/slick-theme.css">
+<link rel="stylesheet" href="css/style.css">
+<!--jQuery--> 
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script> 
+</head>
+
+<body>
+<div class="wrapper"> 
+  <!-- headerここから -->
+  <header id = "header">
+    <div class="container">
+      <div class="header_inner">
+        <div class="container-small">
+          <h1 class="header_logo"> <a href="index.html">しんみ歯科</a> </h1>
+          <button type="button" class="toggle"> <span class="fas fa-bars" title="MENU"></span> </button>
+        </div>
+        <!--ナビ-->
+        <nav class="header_nav">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#information">医院案内</a></li>
+            <li><a href="#about_d">院長紹介</a></li>
+            
+            <!-- 後日実装 -->
+            <!-- <li><a href="#">診療案内</a></li> -->
+            <!-- <li><a href="#">料金表</a></li> -->
+            
+            <li><a href="#access">アクセス</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- headerここまで --> 
+  <!-- mvここから -->
+  <!-- slickで画像を２枚使用 -->
+  <div class="mv">
+    <ul class="slider">
+      <li><img src="images/mv1.jpg" alt=""></li>
+      <li><img src="images/mv2.jpg" alt=""></li>
+    </ul>
+  </div>
+  <!-- mvここまで --> 
+
+  <!-- mainここから -->
+  <main class="content">
+
+    <section id="information" class="select">
+      <div class="container">
+        <div class="top_m_items">
+
+          <h2 class="select_title">選ばれる理由</h2>
+          <div class="top_m_item">
+            <a href="#" class="top_m_link">
+              <figure>
+                <img src="images/m1.jpg" alt="最新の治療設備">
+              </figure>
+              <h3>1.最新の治療設備</h3>
+              <div class="top_m_info">
+                <p>
+                  最新の治療設備を整え、安心安全な治療を行います。
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="top_m_item">
+            <a href="#" class="top_m_link">
+              <figure>
+                <img src="images/m2.jpg" alt="清潔環境">
+              </figure>
+              <h3>2.清潔環境</h3>
+              <div class="top_m_info">
+                <p>
+                  治療ごとの器具の滅菌・殺菌によって清潔環境を保ちます。
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="top_m_item">
+            <a href="#" class="top_m_link">
+              <figure>
+                <img src="images/m3.jpg" alt="分かりやすいご説明">
+              </figure>
+              <h3>3.分かりやすいご説明</h3>
+              <div class="top_m_info">
+                <p>
+                  映像・資料を可視化した、分かりやすいご説明を致します。
+                </p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <div class="more_btn">
+          <a href="#information" class="top_m_more">
+            医院案内へ
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about_d" class="d_intro">
+      <div class="container">
+        <h2 >院長紹介</h2>
+        <div class="d_intro_items">
+          <figure class="d_image">
+            <img src="images/director.jpg" alt="院長">
+          </figure>
+          <div class="d_intro_text">
+            <h4>院長 親身 新(Shinmi Arata)</h4>
+            <p>
+              歯のことで悩みができたら、些細なことでも構いませんので気兼ねなくご来院ください。感謝の気持ちをもってお迎えし、お悩みの改善に向けてお手伝いをさせていただきます。<br>
+              &nbsp;患者さまのご希望を尊重したうえで、一人ひとりに合った治療をご提供します。基本を忠実に守り、誠実な姿勢で日々治療に励んでいます。まずは一度、お話にお越しいただければと思います。
+            </p>
+          </div>
+        </div>
+
+        <div class="more_btn">
+          <a href="#about_d" class="top_m_more">
+            院長紹介へ
+          </a>
+        </div>
+      </div>
+    </section>
+<!--     
+    <section class="m_info">
+      <div class="container">
+        <div class="top_m_items">
+          <h2>診療案内</h2>
+          <div class="top_m_item">
+            <a href="#" class="top_m_link">
+              <figure>
+                <img src="images/300X300.jpg" alt="歯科診療">
+              </figure>
+              <div class="top_m_info">
+                <h3>一般的な歯科診療</h3>
+                <p>10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。</p>
+              </div>
+            </a>
+          </div>
+          <div class="top_m_item">
+            <a href="#" class="top_m_link">
+              <figure>
+                <img src="images/300X300.jpg" alt="歯科診療">
+              </figure>
+              <div class="top_m_info">
+                <h3>一般的な歯科診療</h3>
+                <p>10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。</p>
+              </div>
+            </a>
+          </div>
+          <div class="top_m_item">
+            <a href="#" class="top_m_link">
+              <figure>
+                <img src="images/300X300.jpg" alt="歯科診療">
+              </figure>
+              <div class="top_m_info">
+                <h3>一般的な歯科診療</h3>
+                <p>10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。</p>
+              </div>
+            </a>
+          </div>
+          <div class="top_m_item">
+            <a href="#" class="top_m_link">
+              <figure>
+                <img src="images/300X300.jpg" alt="歯科診療">
+              </figure>
+              <div class="top_m_info">
+                <h3>一般的な歯科診療</h3>
+                <p>10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="more_btn">
+          <a href="#" class="top_m_more">
+            その他診療内容
+          </a>
+        </div>
+      </div>
+    </section>
+-->
+
+
+    <section id="access" class="section_access">
+      <div class="container">
+        <div class="access_items">
+          <div class="table_wrap">
+            <table class="biz-hour">
+              <tbody>
+                <tr>
+                  <th>診療時間</th>
+                  <th>月</th>
+                  <th>火</th>
+                  <th>水</th>
+                  <th>木</th>
+                  <th>金</th>
+                  <th class="sat">土</th>
+                  <th class="sun">日</th>
+                </tr>
+                <tr>
+                  <td>9:30〜12:30</td>
+                  <td>●</td><!-- 月 -->
+                  <td>●</td><!-- 火 -->
+                  <td>●</td><!-- 水 -->
+                  <td>●</td><!-- 木 -->
+                  <td>●</td><!-- 金 -->
+                  <td>●</td><!-- 土 -->
+                  <td>-</td><!-- 日 -->
+                </tr>
+                <tr>
+                  <td>14:30〜18:00</td>
+                  <td>●</td><!-- 月 -->
+                  <td>●</td><!-- 火 -->
+                  <td>●</td><!-- 水 -->
+                  <td>-</td><!-- 木 -->
+                  <td>●</td><!-- 金 -->
+                  <td>-</td><!-- 土 -->
+                  <td>-</td><!-- 日 -->
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="gmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.15818180694!2d135.49639751523273!3d34.726406980427846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e4253d57b5f5%3A0x9933a770066086e4!2z6KW_5Lit5bO25Y2X5pa56aeF!5e0!3m2!1sja!2sjp!4v1648522773750!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- mainここまで --> 
+  <!-- footerここから -->
+  <footer class="footer">
+
+    <nav class="footerNav">
+      <ul class="footerNav-list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#information">医院案内</a></li>
+        <li><a href="#about_d">院長紹介</a></li>
+
+          <!-- 後日実装 -->
+          <!-- <li><a href="#">診療案内</a></li> -->
+          <!-- <li><a href="#">料金表</a></li> -->
+        
+          <li><a href="#access">アクセス</a></li>
+      </ul>
+    </nav>
+
+    <div class="copyright">©しんみ歯科</div>
+  </footer>
+  <!-- footerここまで --> 
+</div>
+</body>
+</html>

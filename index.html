@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 検索結果出さないようにする -->
+<meta name="robots" content="noindex,nofollow">
+<title>yuiya-portfolio</title>
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<!--Font Awesome５-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!--css-->
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<!--jQuery--> 
+<script src="js/jquery-3.6.0.min.js"></script> 
+<script src="js/main.js"></script> 
+</head>
+
+<body>
+<div class="wrapper"> 
+  <!-- headerここから -->
+  <header>
+    <div class="container">
+      <div class="header_inner">
+        <div class="container-small">
+          <h1 class="header_logo"> <a href="https://yuiya-portfolio.com/">YUIYA PORTFOLIO</a> </h1>
+        </div>
+        <!--ナビ-->
+        <nav class="header_nav">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#work">WORKS</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#profile">PROFILE</a></li>
+          </ul>
+        </nav>
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamburger-menu">
+          <span class="hamburger-menu__line"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- headerここまで --> 
+  <!-- SPナビ -->
+    <nav class="nav-sp">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#work">WORKS</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#profile">PROFILE</a></li>
+      </ul>
+    </nav>
+
+  <!-- mvここから -->
+  <div class="mv">
+    <div class="container">
+      <h2 class="mv_title">Portfolio</h2>
+    </div>
+  </div>
+  
+  <!-- mvここまで --> 
+  <!-- mainここから -->
+  <main class="content"> 
+    <!-- Wrokここから -->
+    <section class="work_section">
+      <h2 id="work" class="title">WORKS</h2>
+      <div class="container">
+        <div class="work_list">
+          <article>
+            <a class="wrok_item" href="dental/index.html">
+              <div class="thumbnail" style="background-image:url(images/dentalsite.jpg)">
+              </div>
+              <div class="text">
+                <h3>しんみ歯科(架空サイト)</h3>
+                <p>
+                  画面サイズに合わせてデザインが変化するレスポンシブ対応のWebサイトを制作しました。<br>
+                  スマートフォンではハンバーガーメニューを採用し、シンプルで使いやすいナビゲーションを意識しています。<br>
+                  また、Google Mapを埋め込み、お客様が場所を確認しやすい工夫もしています。
+                </p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Workここまで --> 
+    <!-- Skillここから -->
+    <section class="skill_section">
+      <h2 id="skill" class="title">SKILL</h2>
+      <div class="container">
+        <div class="skill_list">
+          <div class="skill_item">
+            <img src="images/htmlcss.png" alt="Html">
+            <div class="text">
+              <h3>HTML/CSS</h3>
+              <p>
+                レスポンシブデザインの記述が可能です。
+                <br>
+                エディタは vs code を使用しています。
+              </p>
+            </div>
+          </div>
+
+          <div class="skill_item">
+            <img src="images/js.png" alt="JavaScript">
+            <div class="text">
+              <h3>JavaScript</h3>
+              <p>jQueryを用いて部分的に動かすことができます。</p>
+            </div>
+          </div>
+          
+          <div class="skill_item">
+            <img src="images/ps.png" alt="Photoshop">
+            <div class="text">
+              <h3>Photoshop</h3>
+              <p>簡単なバナーなどを作成できます。</p>
+            </div>
+          </div>
+          
+
+          <div class="skill_item">
+            <img src="images/ai.png" alt="Illsutrator">
+            <div class="text">
+              <h3>Illsutrator</h3>
+              <p>基本的な機能は使用できます。</p>
+            </div>
+          </div>
+          
+        </div>   
+      </div>
+    </section>
+    <!-- SKILLここまで --> 
+    <!-- PROFILEここから -->
+    <section class="profile_secton">
+      <div class="container">
+        <h2 id="profile" class="title">PROFILE</h2>
+        <div class="profile_inner">
+          <!-- 写真は一旦なし -->
+          <!-- <img src="images/300X300.jpg" alt=""> -->
+          <div class="profile_text">
+            <p class="profile_name">名前：上間勇一矢</p>
+            <p>
+              以前はWebサイトの更新業務を担当していました。
+              <br>
+              体調を崩して一度仕事を離れましたが、現在は回復し、Web制作のスキルを学び直しながら再スタートを目指しています。
+              <br>
+              コーディングの基礎やレスポンシブ対応などを中心に学習を重ね、今後は現場で実践的な経験を積んでいきたいと考えています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROFILEここまで -->
+  </main>
+  <!-- mainここまで -->
+  <!-- TOPへ戻るボタン -->
+  <div id="page_top"><a href="#"></a></div>
+  <!-- footerここから -->
+  <footer class="footer">
+    <nav class="footerNav">
+      <ul class="footerNav-list">
+        <li class=""><a href="#">HOME</a></li>
+        <li class=""><a href="#work">WORKS</a></li>
+        <li class=""><a href="#skill">SKILL</a></li>
+        <li class=""><a href="#profile">POFLIE</a></li>
+      </ul>
+    </nav>
+    <div class="copyright">©YUIYA PORTFOLIO</div>
+  </footer>
+  <!-- footerここまで --> 
+</div>
+</body>
+</html>

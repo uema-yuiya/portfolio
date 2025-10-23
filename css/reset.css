@@ -1,0 +1,50 @@
+/*========================
+リセットCSSセットここから
+==========================*/
+*{
+box-sizing:border-box;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, address, em, img, q, small, strong, var, b, i,dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, menu, nav, section, summary, time, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+vertical-align:baseline;
+background:transparent;
+}
+p{
+line-height:1.5;
+}
+article, aside, footer, header, menu, nav, section { 
+display:block;
+}
+nav ul {
+list-style:none;
+}
+a {
+margin:0;
+padding:0;
+vertical-align:baseline;
+background:transparent;
+text-decoration:none;
+color: inherit;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+input, select {
+vertical-align:middle;
+}
+address{
+font-style:normal;
+}
+/*========================
+リセットCSSセットここまで
+==========================*/
+
+.header_logo {
+  
+}
